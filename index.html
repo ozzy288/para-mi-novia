@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="icon" type="image/jpg" href="/assets/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="click-heart">
+            <h2 style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+  <span>Hace click en la carta mi vida</span>
+  <img src="img/2544-cat-true-love.gif" width="50">
+</h2>
+        </div>
+        
+        <div class="envelope">
+            <div class="flap top-flap"></div>
+            <div class="flap right-flap"></div>
+            <div class="heart-seal">
+  <img src="img/873176-gemheartblue.gif" width="60">
+</div>
+        </div>
+        
+        <div class="music-card">
+            <div class="song-info">
+                <img src="assents/album-cover.jpg" alt="Album Cover" class="album-cover">
+                <div class="song-details">
+                    <h3>I Don't Want to Miss a Thing</h3>
+                    <p>Aerosmith</p>
+                </div>
+            </div>
+            <audio id="audio" src="assents/audio.mp3"></audio>
+            <div class="controls">
+                <button id="prevBtn" class="control-btn">⏮</button>
+                <button id="playBtn" class="control-btn">▶</button>
+                <button id="nextBtn" class="control-btn">⏭</button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="timer">
+                <span id="currentTime">0:00</span>
+                <span>/</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        
+        <div class="memories-section">
+            <h2 style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+  <span>Nuestros momentos juntos</span>
+  <img src="img/817359-pink-hearts.gif" width="30">
+</h2>
+            <div class="gallery-grid">
+                <img src="img/1.png" style="width:200px;">
+                <img src="img/2.png" style="width:200px;">
+                <img src="img/3.jpg" style="width:200px;">
+                <img src="img/4.jpg" style="width:200px;">
+                <img src="img/5.jpg" style="width:200px;">
+                <img src="img/6.jpg" style="width:200px;">
+                <img src="img/7.jpg" style="width:200px;">
+                <img src="img/8.jpg" style="width:200px;">
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay">
+        <div class="modal-letter">
+            <button class="close-modal">×</button>
+            <div class="letter">
+                <h1>Para mi esposa</h1>
+                <div class="letter-content">
+                    <p style="text-align: justify;">alicia,</p>
+                    <p style="text-align: justify;">Mi amor hoy cumplimos 4 meses juntos y créeme que para mí no es una fecha cualquiera, es un recuerdo hermoso de todo lo que hemos construido día a día.</p>
+                    <p style="text-align: justify;">No sabes lo importante que eres para mí… cada momento contigo, cada mensaje, cada vez que jugamos o simplemente estamos juntos, todo eso llena mi corazón de una manera que no puedo explicar, Mientras estábamos juntos hace un rato, te estaba preparando algo con mucho cariño porque tú te mereces lo mejor de mí, en cada detalle, en cada cosa que hago pensando en ti, Quiero que sepas que mi deseo más grande es seguir caminando contigo, seguir compartiendo risas, momentos, y todo lo que venga porque contigo todo se siente más bonito mi vida.</p>
+                    <p style="text-align: justify;"> Gracias por amarme como lo haces, por estar en las buenas y en las malas, y por ser esa persona tan especial que llegó a cambiar mi mundo, Estos 4 meses han sido simplemente hermosos, y no tengo dudas de que lo mejor aún está por venir porque quiero un futuro contigo, lleno de amor y felicidad, Te amo muchísimo mi amor, más de lo que las palabras pueden decir y aun que a veces sientas que no lo desmuestre en el fondo de mi corazon me esfuerzo cada dia mas para ser el mejor novio que has tenido ❤️❤️❤️.</p>
+                    <p class="signature">Con todo mi amor tu bebesito sebas 🥺❤️.<br>Ars</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
